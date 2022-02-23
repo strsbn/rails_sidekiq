@@ -1,0 +1,10 @@
+common: &COMMON
+  OtameshiJob2:
+    cron: '* * * * * Asia/Tokyo'
+
+development:
+#  <<: *COMMON
+  OtameshiJob3:
+    cron: '*/5 * * * * Asia/Tokyo'
+    queue: default
+    description: お試しジョブcron
