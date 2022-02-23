@@ -8,3 +8,7 @@ development:
     cron: '*/5 * * * * Asia/Tokyo'
     queue: default
     description: お試しジョブcron
+  OtameshiJob2:
+    cron: '*/5 * last * * Asia/Tokyo'
+    queue: default
+    description: お試しジョブcron
