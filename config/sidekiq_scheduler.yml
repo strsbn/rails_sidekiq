@@ -3,7 +3,7 @@ common: &COMMON
     cron: '* * * * * Asia/Tokyo'
 
 development:
-#  <<: *COMMON
+  <<: *COMMON
   OtameshiJob3:
     cron: '*/5 * * * * Asia/Tokyo'
     queue: default
